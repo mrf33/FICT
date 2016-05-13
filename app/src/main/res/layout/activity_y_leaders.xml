@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mrf3.fict.Y_leaders"
+    android:background="@drawable/un">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. Mr. Tony Ng"
+        android:id="@+id/textView"
+        android:textColor="#0084ff"
+        android:textStyle="bold"
+        android:layout_marginTop="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Leader of : BSEM,DSE,BGT,BIVC,BMC
+                Extention: 8403"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2. Mr. Vinod"
+        android:id="@+id/textView2"
+        android:textColor="#0084ff"
+        android:textStyle="bold"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="Leader of : BBIT,BTE,BBIS,FIT,BEC
+        Extention: 8402"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3. Mainul Khan"
+        android:id="@+id/textView3"
+        android:textColor="#0084ff"
+        android:textStyle="bold"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="Leader of : BICT,BCCT,BIT,BInst,DIT
+        Extention: 8401"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/editText" />
+
+</RelativeLayout>

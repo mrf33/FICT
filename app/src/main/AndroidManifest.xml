@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrf3.fict" >
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Location"
+            android:label="@string/title_activity_location" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOCATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".October"
+            android:label="May" >
+            <intent-filter>
+                <action android:name="android.intent.action.CALENDAR1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".November"
+            android:label="June" >
+            <intent-filter>
+                <action android:name="android.intent.action.CALENDAR2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".December"
+            android:label="July" >
+            <intent-filter>
+                <action android:name="android.intent.action.CALENDAR3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Moths"
+            android:label="2016/Months" >
+            <intent-filter>
+                <action android:name="android.intent.action.MLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Llist"
+            android:label="@string/title_activity_llist" >
+            <intent-filter>
+                <action android:name="android.intent.action.LLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Y_leaders"
+            android:label="@string/title_activity_y_leaders" >
+            <intent-filter>
+                <action android:name="android.intent.action.Y_LEADERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LPL"
+            android:label="@string/title_activity_lpl" >
+            <intent-filter>
+                <action android:name="android.intent.action.LPL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lecturers"
+            android:label="@string/title_activity_lecturers" >
+            <intent-filter>
+                <action android:name="android.intent.action.LECTURERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONTACT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mdlist"
+            android:label="@string/title_activity_mdlist" >
+            <intent-filter>
+                <action android:name="android.intent.action.MDLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BBIT_list"
+            android:label="@string/title_activity_bbit_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.BBIT_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BBIT_y1"
+            android:label="@string/title_activity_bbit_y1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BBIT_Y1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BBIT_y2"
+            android:label="@string/title_activity_bbit_y2" >
+            <intent-filter>
+                <action android:name="android.intent.action.BBIT_Y2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BBIT_y3"
+            android:label="@string/title_activity_bbit_y3" >
+            <intent-filter>
+                <action android:name="android.intent.action.BBIT_Y3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BEC_list"
+            android:label="@string/title_activity_bec_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.BEC_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BEC_y1"
+            android:label="@string/title_activity_bec_y1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BEC_Y1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BEC_y2"
+            android:label="@string/title_activity_bec_y2" >
+            <intent-filter>
+                <action android:name="android.intent.action.BEC_Y2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BEC_y3"
+            android:label="@string/title_activity_bec_y3" >
+            <intent-filter>
+                <action android:name="android.intent.action.BEC_Y3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BIVC_list"
+            android:label="@string/title_activity_bivc_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.BIVC_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BIVC_y1"
+            android:label="@string/title_activity_bivc_y1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BIVC_Y1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BIVC_y2"
+            android:label="@string/title_activity_bivc_y2" >
+            <intent-filter>
+                <action android:name="android.intent.action.BIVC_Y2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BIVC_y3"
+            android:label="@string/title_activity_bivc_y3" >
+            <intent-filter>
+                <action android:name="android.intent.action.BIVC_Y3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

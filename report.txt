@@ -1,0 +1,44 @@
+Abstract :
+
+An experment in designing an android application that provides the user with a simple user-interface and methods 
+to exploit some connectivity features the likes of GPS , internet connection and delvire it to the last one with 
+stable pase of interactivity .
+
+
+Intoduction :
+
+Certain requirements were given before hand to-which our application were destined to satisfy , although not all of them
+meet accourdingly as well as some weren't meant to meet yet it has . Different factors can play a rolle in that specialy under-going
+unstable development phase with tight timelimit. No matter how clear were the vision in-which we viewed our application to be before
+the development phase, most of it changed in the process ,but certainly it became way clearer .
+
+The actual design, coding phase took a reasonable amount of our given time in comparison to the amount spent in debuging and use-testing .
+Furthermore the actual chanlnging part as we didn't expect was the debuging and getting the application to run on an actual android device
+taking in considration the differances between each version of the os and how the code and development-kit used will certainly differe just as much .
+Not to mention the lack of experince in this field , of software development which evadntly effected the pase of over-all progress to the 
+declining end unfortantly .
+
+Nevertheless the choice of going with one of the Idea ,Android studio in our case, as oppose to the given framework was an addtional chalnge
+that we expected taking in consideration the lack of any advanced Java knowledg since were're taking java 1 as a subject curently, the abslut
+lack of knowledg in regard to mobile-systems development . Yet the massive amount of knowledge that we can gain from taking such chalnge was 
+the ultimate goal and where all the ends met .
+
+
+Methodalogy :
+
+# Framework
+Android studio was our choice of development framework as mentioned previously , reasoning to-which we chose as so 
+
+- Stablity : Since its considered the one most complete, relayable framework that has been constainly updated and improved on 
+- Community support : This factor was the most important to us , since the lack of knowledge and experince mentioned previously
+- Ease : It's considered to-be the simplest idea out of the rest by far .
+
+# Platform
+Android 5 (Glybeans) the base of our support went to this version with older android versions down to 4.2 , reasoning to-why 
+
+- High existing support : so since it scored well-over 70% precent of android devices out-there accourding to Google play including the
+other mentioned factors , which noticbly other older version lack and newer versions support but we've had to scrifaice the platform support
+
+-
+
+

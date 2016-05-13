@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FICT</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_October">October</string>
+    <string name="title_activity_November">November</string>
+    <string name="title_activity_December">December</string>
+    <string name="title_activity_Months">2015/Months</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_llist">Lecturer position</string>
+    <string name="title_activity_y_leaders">Programe Leaders</string>
+    <string name="title_activity_lpl">Year leaders and Principles</string>
+    <string name="title_activity_lecturers">Lecturers</string>
+    <string name="title_activity_contact">Contacts</string>
+    <string name="title_activity_mdlist">Modules List</string>
+    <string name="title_activity_bbit_list">BBIT Years</string>
+    <string name="title_activity_bbit_y1">BBIT First year</string>
+    <string name="title_activity_bbit_y2">BBIT Second year</string>
+    <string name="title_activity_bbit_y3">BBIT Third year</string>
+    <string name="title_activity_bec_list">BEC Years</string>
+    <string name="title_activity_bec_y1">First year</string>
+    <string name="title_activity_bec_y2">Second year</string>
+    <string name="title_activity_bec_y3">Third year</string>
+    <string name="title_activity_bivc_list">BIVC years</string>
+    <string name="title_activity_bivc_y1">First year</string>
+    <string name="title_activity_bivc_y2">Second year</string>
+    <string name="title_activity_bivc_y3">Third year</string>
+</resources>
